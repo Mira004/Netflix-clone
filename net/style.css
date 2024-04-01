@@ -1,0 +1,106 @@
+body{
+  background-image:url(Netflix-background_860c8ece6b34fb4f43af02255ca8f225.jpg) ;
+}
+header{
+  color:red;
+  font-size:50px;
+}
+
+.sign{
+  color:rgb(255, 255, 255);
+}
+.btn{
+  color:white;
+  background-color: red;
+  width:100px;
+  border-radius:5px;
+  height: 40px;
+  width: 306px;
+  cursor:pointer;
+}
+.btn:hover{
+  background-color:rgb(216, 9, 9);
+}
+.btn:active{
+  background-color: rgb(172, 17, 17);
+}
+.container{
+display:flex;
+flex-direction: column;
+  align-items:center;
+  height:500px;
+  width:390px;
+  background-color:rgb(36, 34, 34);
+}
+.cc{
+  display:flex;
+  
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+.input{
+  height:200px;
+  width:300;
+margin-top:20px;
+}
+.i{
+ height:40px;
+ border-radius:5px;
+ width:300px;
+ margin-top:10px;
+ background-color: rgb(59, 57, 57);
+ color:white;
+ font-size:15px;
+}
+.i::placeholder{
+  color:rgb(144, 138, 138);
+  padding-left:5px;
+  
+
+}
+.btn-c{
+margin-top:10px;
+}
+.re{
+  color:rgb(166, 172, 177);
+}
+.need{
+  color:rgb(166, 172, 177);
+}
+.two{
+  display:flex;
+  justify-content: space-between;
+  margin-top:10px;
+}
+img{
+  height:20px;
+  margin-right:5px;
+  width:20px;
+}
+
+.f{
+  color:rgb(87, 86, 84);
+}
+.dif{
+  color:white;
+}
+.down-p{
+ width:300px;
+ height:120px;
+  align-items:end;
+  display:flex;
+  flex-direction:column;
+  justify-content: end;
+  gap:10px;
+  align-items:start;
+}
+footer{
+  color:gray;
+  font-size:14px;
+  width:300px;
+  margin-top:10px;
+}
+.link{
+  color:rgb(111, 111, 255);
+}
